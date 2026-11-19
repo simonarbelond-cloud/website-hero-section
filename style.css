@@ -1,0 +1,145 @@
+
+/* General page styling */
+body {
+    background-color: #eae5dc; /* Sets an earthy beige background */
+    color: #39362f; /* Sets the main text color */
+    font-family: Arial, sans-serif; /* Sets a simple readable font */
+    margin: 0; /* Removes default page margins */
+}
+
+/* Main hero section */
+.hero {
+    background-color: #f5f2ec; /* Sets a soft neutral background */
+    min-height: 100vh; /* Makes the section at least the full screen height */
+    padding: 30px 8%; /* Adds space inside the section */
+    box-sizing: border-box; /* Includes padding in the section dimensions */
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex; /* Places navigation elements in a row */
+    justify-content: space-between; /* Separates the logo and navigation link */
+    align-items: center; /* Vertically aligns navigation elements */
+}
+
+/* Brand logo */
+.logo {
+    font-size: 26px; /* Sets the logo text size */
+    font-weight: bold; /* Makes the logo bold */
+    color: #39362f; /* Sets the logo color */
+}
+
+/* Logo decorative dot */
+.logo span {
+    color: #a47b55; /* Adds an earthy brown accent */
+}
+
+/* Navigation link */
+.nav-link {
+    color: #39362f; /* Sets the link color */
+    text-decoration: none; /* Removes the underline */
+    font-size: 15px; /* Sets the link text size */
+}
+
+/* Main hero content */
+.hero-content {
+    max-width: 650px; /* Limits the width of the text content */
+    margin: 90px auto 45px; /* Centers the content and adds vertical space */
+    text-align: center; /* Centers all text */
+}
+
+/* Small introductory text */
+.eyebrow {
+    color: #a47b55; /* Uses an earthy brown accent */
+    font-size: 13px; /* Sets a small text size */
+    font-weight: bold; /* Makes the text bold */
+    letter-spacing: 3px; /* Adds space between letters */
+}
+
+/* Main heading */
+.hero-content h1 {
+    font-size: 52px; /* Sets the main heading size */
+    line-height: 1.15; /* Controls spacing between heading lines */
+    margin-bottom: 15px; /* Adds space below the heading */
+}
+
+/* Highlighted heading text */
+.hero-content h1 span {
+    color: #a47b55; /* Highlights the word Comfort */
+}
+
+/* Secondary heading */
+.hero-content h2 {
+    font-size: 23px; /* Sets the secondary heading size */
+    font-weight: normal; /* Keeps the heading visually light */
+    color: #71695f; /* Uses a softer gray-brown color */
+}
+
+/* Description paragraph */
+.description {
+    font-size: 16px; /* Sets the paragraph text size */
+    line-height: 1.8; /* Improves paragraph readability */
+    color: #71695f; /* Sets a muted text color */
+    margin: 25px 0; /* Adds space above and below the paragraph */
+}
+
+/* Call to action button */
+.cta-button {
+    display: inline-block; /* Allows padding and button-like dimensions */
+    background-color: #a47b55; /* Sets an earthy brown background */
+    color: white; /* Makes the button text white */
+    text-decoration: none; /* Removes the link underline */
+    padding: 15px 30px; /* Adds space inside the button */
+    border-radius: 5px; /* Slightly rounds the button corners */
+    font-size: 15px; /* Sets the button text size */
+    font-weight: bold; /* Makes the button text bold */
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    background-color: #806040; /* Darkens the button when hovered */
+}
+
+/* Small text below the button */
+.small-text {
+    color: #999084; /* Sets a subtle text color */
+    font-size: 12px; /* Makes the text smaller */
+    margin-top: 25px; /* Adds space above the text */
+}
+
+/* Product image */
+.hero-image {
+    max-width: 950px; /* Increases the image container width */
+    margin: 0 auto; /* Centers the image container */
+    text-align: center; /* Centers the image caption */
+}
+
+/* Image appearance */
+.hero-image img {
+    width: 100%; /* Makes the image fill its container */
+    height: 420px; /* Increases the image height */
+    object-fit: cover; /* Keeps the image filling the available space */
+    border-radius: 12px; /* Preserves the original rounded corners */
+}
+
+/* Image caption */
+.image-caption {
+    color: #8b8174; /* Sets a muted caption color */
+    font-size: 13px; /* Sets the caption text size */
+    margin-top: 12px; /* Adds space above the caption */
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 36px; /* Reduces the heading size on small screens */
+    }
+
+    .hero-content {
+        margin-top: 65px; /* Reduces the space above the content */
+    }
+
+    .hero-image img {
+        height: 230px; /* Adjusts the image height on mobile */
+    }
+}
